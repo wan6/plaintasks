@@ -15,28 +15,28 @@
                         "caption": "PlainTasks",
                         "children":
                         [
-                            {
-                                "command": "open_file",
-                                "args": {"file": "${packages}/PlainTasks/messages/Tutorial.todo"},
-                                "caption": "Tutorial"
-                            },
-                            { "caption": "-" },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/PlainTasks/PlainTasks (OSX).sublime-settings",
-                                    "platform": "OSX"
-                                },
-                                "caption": "Settings – Default"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/PlainTasks/PlainTasks (Linux).sublime-settings",
-                                    "platform": "Linux"
-                                },
-                                "caption": "Settings – Default"
-                            },
+                            // {
+                            //     "command": "open_file",
+                            //     "args": {"file": "${packages}/PlainTasks/messages/Tutorial.todo"},
+                            //     "caption": "Tutorial"
+                            // },
+                            // { "caption": "-" },
+                            // {
+                            //     "command": "open_file",
+                            //     "args": {
+                            //         "file": "${packages}/PlainTasks/PlainTasks (OSX).sublime-settings",
+                            //         "platform": "OSX"
+                            //     },
+                            //     "caption": "Settings – Default"
+                            // },
+                            // {
+                            //     "command": "open_file",
+                            //     "args": {
+                            //         "file": "${packages}/PlainTasks/PlainTasks (Linux).sublime-settings",
+                            //         "platform": "Linux"
+                            //     },
+                            //     "caption": "Settings – Default"
+                            // },
                             {
                                 "command": "open_file",
                                 "args": {
@@ -50,23 +50,23 @@
                                 "args": {"file": "${packages}/User/PlainTasks.sublime-settings"},
                                 "caption": "Settings – User"
                             },
-                            { "caption": "-" },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/PlainTasks/Default (OSX).sublime-keymap",
-                                    "platform": "OSX"
-                                },
-                                "caption": "Key Bindings – Default"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/PlainTasks/Default (Linux).sublime-keymap",
-                                    "platform": "Linux"
-                                },
-                                "caption": "Key Bindings – Default"
-                            },
+                            // { "caption": "-" },
+                            // {
+                            //     "command": "open_file",
+                            //     "args": {
+                            //         "file": "${packages}/PlainTasks/Default (OSX).sublime-keymap",
+                            //         "platform": "OSX"
+                            //     },
+                            //     "caption": "Key Bindings – Default"
+                            // },
+                            // {
+                            //     "command": "open_file",
+                            //     "args": {
+                            //         "file": "${packages}/PlainTasks/Default (Linux).sublime-keymap",
+                            //         "platform": "Linux"
+                            //     },
+                            //     "caption": "Key Bindings – Default"
+                            // },
                             {
                                 "command": "open_file",
                                 "args": {
@@ -75,22 +75,22 @@
                                 },
                                 "caption": "Key Bindings – Default"
                             },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/User/Default (OSX).sublime-keymap",
-                                    "platform": "OSX"
-                                },
-                                "caption": "Key Bindings – User"
-                            },
-                            {
-                                "command": "open_file",
-                                "args": {
-                                    "file": "${packages}/User/Default (Linux).sublime-keymap",
-                                    "platform": "Linux"
-                                },
-                                "caption": "Key Bindings – User"
-                            },
+                            // {
+                            //     "command": "open_file",
+                            //     "args": {
+                            //         "file": "${packages}/User/Default (OSX).sublime-keymap",
+                            //         "platform": "OSX"
+                            //     },
+                            //     "caption": "Key Bindings – User"
+                            // },
+                            // {
+                            //     "command": "open_file",
+                            //     "args": {
+                            //         "file": "${packages}/User/Default (Linux).sublime-keymap",
+                            //         "platform": "Linux"
+                            //     },
+                            //     "caption": "Key Bindings – User"
+                            // },
                             {
                                 "command": "open_file",
                                 "args": {
@@ -99,7 +99,7 @@
                                 },
                                 "caption": "Key Bindings – User"
                             },
-                            { "caption": "-" }
+                            // { "caption": "-" }
                         ]
                     }
                 ]
