@@ -1,7 +1,7 @@
 {
-  "open_tasks_bullet": "☐", // options: - | ❍ | ❑ | ■ | □ | ☐ | ▪ | ▫ | – | — | ≡ | → | › | [ ]
-  "done_tasks_bullet": "✔", // options: + | ✓ | ✔ | √ | [x]
-  "cancelled_tasks_bullet": "✘", // options: x | ✘ | [-]
+  "open_tasks_bullet": "[ ]", // options: - | ❍ | ❑ | ■ | □ | ☐ | ▪ | ▫ | – | — | ≡ | → | › | [ ]
+  "done_tasks_bullet": "[x]", // options: + | ✓ | ✔ | √ | [x]
+  "cancelled_tasks_bullet": "[-]", // options: x | ✘ | [-]
   "before_tasks_bullet_margin": 1,
   "date_format": "(%y-%m-%d %H:%M)",
   "done_tag": true, // related to @cancelled as well
@@ -11,8 +11,29 @@
   "show_remain_due": false, // in Sublime 3, show remain or overdue time under due tags
 
   "bar_empty": "☐", // empty cell for progress-bar in status-bar, for more details see Custom Statistics in README
+  
 
-  "color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
+
+
+  "highlight_past_due": true, // If true, highlight past, soon, and invalid @due(something)
+  "highlight_due_soon": 24, // Hours as int, threshold to define which @due will be soon
+  "scope_past_due": "string.other.tag.todo.critical",
+  "scope_due_soon": "string.other.tag.todo.high",
+  "scope_misformatted": "string.other.tag.todo.low",
+  "icon_past_due": "circle",
+  "icon_due_soon": "dot",
+
+
+// icon_past_due "circle"  Gutter icon¹
+// icon_due_soon "dot" Gutter icon¹
+// icon_misformatted ""  Gutter icon¹
+// icon_critical ""  Gutter icon¹
+// icon_high ""  Gutter icon¹
+// icon_low  ""  Gutter icon¹
+// icon_today  ""  Gutter icon¹
+
+
+//  "color_scheme": "Packages/PlainTasks/tasks-solarized-dark.hidden-tmTheme",
     // other bundled schemes:
     //   Packages/PlainTasks/tasks-dark.hidden-tmTheme
     //   Packages/PlainTasks/tasks-eighties-colored.hidden-tmTheme
